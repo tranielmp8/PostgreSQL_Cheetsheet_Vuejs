@@ -8,6 +8,8 @@
       <Where />
       <Count />
       <Groupby />
+      <Joins />
+      <Tips />
     </div>
   </div>
   
@@ -21,6 +23,8 @@ import Select from '../components/Select.vue';
 import Where from '../components/Where.vue';
 import Count from '../components/Count.vue';
 import Groupby from '../components/Groupby.vue'
+import Joins from '../components/Joins.vue'
+import Tips from '../components/Tips.vue'
 export default {
   components: {
       Create, 
@@ -29,7 +33,9 @@ export default {
       Select,
       Where,
       Count,
-      Groupby
+      Groupby,
+      Joins,
+      Tips
     },
   setup () {
     
@@ -39,11 +45,17 @@ export default {
 
 <style scoped>
 
+.container {
+  text-align: center;
+}
+
 .sql-container{
+  
   background: #eee;
   padding: .7rem;
   border-radius: 7px;
   margin: 2rem auto;
+  width: 100%;
 }
 
 </style>

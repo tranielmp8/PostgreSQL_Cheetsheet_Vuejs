@@ -10,6 +10,19 @@
       <h4>Select Specific columns in a Table</h4>
       <img src="../assets/images/insert2.png" alt="">
       <code> {{ post2.code }} </code>
+      <br>
+      <h4>Select Specific columns in a Table</h4>
+      <img src="../assets/images/bleach_info.png" alt="">
+      <p>Inserting data into bleach TABLE</p>
+      <code> INSERT INTO bleach(name, shikai, bankai)
+      values
+        ('ichigo', 'zangetsu', 'tensa zangetsu'),
+        ('captain hitsugaya', 'hyorinmaru', 'daiguren hyorinmaru'),
+        ('captain kenpachi', 'nozarashi', 'unnamed'),
+        ('captain yoruichi', 'unknown', 'unknown'),
+        ('captain yamamoto', 'ryuijin jakka', 'zanka no tachi'),
+        ('captain gin', 'shinso', 'kamishini no yari')  
+    </code>
     </div>
   </div>
 </template>

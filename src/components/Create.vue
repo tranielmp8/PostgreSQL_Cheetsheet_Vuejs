@@ -6,6 +6,9 @@
     <div v-if="showDetails" class="details">
       <img src="../assets/images/create_table.png" alt="">
       <code> {{ post.code }} </code>
+    <p>Creating the second table</p>
+      <img src="../assets/images/create_bleach_table.png" alt="">
+      <code> CREATE TABLE bleach(anime_id SERIAL PRIMARY KEY, name VARCHAR(50), shikai VARCHAR(50), bankai VARCHAR(50))</code>
     </div>
   </div>
 </template>
@@ -20,6 +23,13 @@ export default {
     {
       "id": 1,
       "title": "Create Database Table",
+      "code": "CREATE TABLE naruto(id SERIAL PRIMARY KEY,name VARCHAR(50),village VARCHAR(50),power VARCHAR(50),age INTEGER, rank VARCHAR(50))"
+      },
+    )
+    const post1 = ref(
+    {
+      "id": 1,
+      "title": "Create ANOTHER Database Table",
       "code": "CREATE TABLE naruto(id SERIAL PRIMARY KEY,name VARCHAR(50),village VARCHAR(50),power VARCHAR(50),age INTEGER, rank VARCHAR(50))"
       },
     )

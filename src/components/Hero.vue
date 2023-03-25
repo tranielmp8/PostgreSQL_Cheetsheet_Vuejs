@@ -16,6 +16,8 @@
       <h3><a href="https://www.pgadmin.org/download/" target="_blank">PGAdmin</a></h3>
       <img class="pgadmin" src="../assets/images/pgadmin.png" alt="pgadmin">
       <h3>NOTE: you will be prompted to create another password. It can be the same, but REMEMBER THE PASSWORD.  </h3>
+      <p>While SQL has so much to offer, I will just provide basic information that I believe everyone should know</p>
+      <p>The database I created is about anime. I am a nerd I understand, but who doesn't love anime/manga? Anyways I will create two tables: naruto and bleach. We will work first with Naruto, but once joins get involved you will see my bleach content. See my SQL Snippets Below and have fun. </p>
     </div>
   </div>
 </template>
