@@ -17,7 +17,7 @@
       <img class="pgadmin" src="../assets/images/pgadmin.png" alt="pgadmin">
       <h3>NOTE: you will be prompted to create another password. It can be the same, but REMEMBER THE PASSWORD.  </h3>
       <p>While SQL has so much to offer, I will just provide basic information that I believe everyone should know</p>
-      <p>The database I created is about anime. I am a nerd I understand, but who doesn't love anime/manga? Anyways I will create two tables: naruto and bleach. We will work first with Naruto, but once joins get involved you will see my bleach content. See my SQL Snippets Below and have fun. </p>
+      <h4>The database I created is about anime. I am a nerd and I understand that, but who doesn't love anime/manga hehehe? Anyways I will create two tables: naruto and bleach. We will work first with Naruto, but once joins get involved you will see my bleach content. See my SQL Snippets Below and have fun. I will not show the results of the snippets, I will let you use the snippets in order to see how they work.</h4>
     </div>
   </div>
 </template>
