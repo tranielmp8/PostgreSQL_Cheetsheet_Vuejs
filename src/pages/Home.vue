@@ -2,6 +2,7 @@
   <div class="container">
     <Hero />
     <div class="sql-container">
+      <h1>SNIPPETS</h1>
       <Create />
       <Insert />
       <Select />
@@ -50,7 +51,7 @@ export default {
 }
 
 .sql-container{
-  
+  text-align: center;
   background: #eee;
   padding: .7rem;
   border-radius: 7px;
