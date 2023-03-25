@@ -4,8 +4,10 @@
       <h3 @click="showDetails = !showDetails"> {{ post1.title }} </h3>
     </div>
     <div v-if="showDetails" class="details">
-      <p>There is so much to learn when it comes SQL. Below I have provided some more information that can help you become at SQL. Some of the information could be used for interview questions. </p>
+      <p>There is so much to learn when it comes SQL. Below I have provided some more information that I found helpful. Some of the information could be used for interview questions as well. </p>
       <h4>DDL and DML</h4>
+      <p>Think of DDL as defining information or creating/deleting the information</p>
+      <p>DML is more of Inserting data inside data or editing created data</p>
       <img src="../assets/images/DDLandDML.png" alt="">
             <br>
       <h4>Operators and More OPERATORS!</h4>
