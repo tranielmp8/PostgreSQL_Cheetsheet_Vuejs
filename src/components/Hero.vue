@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>SQL Sheet of Knowledge</h1>
+    <h1>SQL Snippets</h1>
     <p>Structured query language (SQL) is a programming language for storing and processing information in a relational database</p>
     <p>SQL is an important skill to have if you are a DataAnalyst or want to be one.</p>
     <p>I have created a simple webpage with SQL basics you should know using PostgreSQL</p>
