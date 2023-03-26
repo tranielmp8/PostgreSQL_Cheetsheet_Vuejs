@@ -4,7 +4,9 @@
       <h3 @click="showDetails = !showDetails"> {{ post1.title }} </h3>
     </div>
     <div v-if="showDetails" class="details">
-      <p>CREATE, ALTER, TRUNCATE, DROP are apart of the DDL or Data Definition Language. DDL Defines the database. DANGEROUS because performing one of these statements can drastically change your database even remove it completely with no way of getting it back</p>
+      <p>
+        CREATE, ALTER, TRUNCATE, DROP are apart of the DDL or Data Definition Language.
+        Do not practice these unless you have a good understanding of what they can do DDL Defines the database. DANGEROUS because performing one of these statements can drastically change your database even remove it completely with no way of getting it back</p>
       <p>Create DATABASE (db) or CREATE TABLE [table_name]</p>
       <img src="../assets/images/create_table.png" alt="">
       <code> {{ post1.code }} </code>
