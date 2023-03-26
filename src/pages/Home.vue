@@ -9,7 +9,9 @@
       <Where />
       <Count />
       <Groupby />
+      <CRUD />
       <Joins />
+      <DDL />
       <Tips />
     </div>
   </div>
@@ -26,6 +28,8 @@ import Count from '../components/Count.vue';
 import Groupby from '../components/Groupby.vue'
 import Joins from '../components/Joins.vue'
 import Tips from '../components/Tips.vue'
+import CRUD from '../components/CRUD.vue';
+import DDL from '../components/DDL.vue'
 export default {
   components: {
       Create, 
@@ -36,7 +40,9 @@ export default {
       Count,
       Groupby,
       Joins,
-      Tips
+      Tips,
+      CRUD,
+      DDL
     },
   setup () {
     
