@@ -5,7 +5,7 @@
     </div>
     <div v-if="showDetails" class="details">
       <img src="../assets/images/all_joins.png" alt="">
-      <p>There are multiple types of joines, but I will show you only some of them. Above have a good picture of what the joins are</p>
+      <p>There are multiple types of joines, but I will show you only some of them. Above is a good visualization of what the joins are</p>
       <img src="../assets/images/join.png" alt="">
       <code> 
         SELECT * FROM naruto
